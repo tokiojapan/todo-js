@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+}
+
+div.area {
+  border-radius: 2vw;
+  padding: 1vw 3vw;
+  margin: 2vw;
+}
+div.area-input {
+  background-color: #4af;
+}
+div.area-todo {
+  background-color: #fa4;
+}
+div.area-finish {
+  background-color: #4fa;
+}
+
+div.area-input input {
+  border: 0;
+  border-radius: 1vw;
+  padding: 0.5vw 2vw;
+}
+div.area-input input:focus {
+  background-color: #fce;
+}
+div.area p {
+  text-align: center;
+  font-weight: bold;
+  color: #444;
+}
+
+button {
+  border: 0;
+  border-radius: 1vw;
+  padding: 0.5vw 2vw;
+  margin-left: 1vw;
+}
+button:hover {
+  background-color: #f4a;
+}
